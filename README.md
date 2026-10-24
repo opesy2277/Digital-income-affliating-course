@@ -1,31 +1,51 @@
-# Digital Income Academy Website
+# Digital Income Academy
 
-A responsive website for the Digital Income Academy affiliate marketing course, built with only **HTML, CSS, and vanilla JavaScript**. It does not require React, Tailwind, Node.js, npm, or a build step.
+Digital Income Academy is an affiliate marketing learning platform designed to help learners understand affiliate marketing and develop practical digital income skills.
 
-## Files
+## Features
 
-- `index.html` — page content and semantic structure.
-- `style.css` — all website styling and responsive layouts.
-- `script.js` — mobile navigation interaction.
-- `coach.jpg` — optional image file for Coach Praise (add your own photo; the original HTML references this filename).
+- User registration and login
+- Email verification
+- Google sign-in
+- Password reset
+- Student and administrator dashboards
+- Course modules and learning resources
+- Student learning progress tracking
+- Module quizzes and final examination
+- Administrator management
 
-## Run locally
+## Technology Stack
 
-1. Extract the project ZIP.
-2. Open `index.html` in any modern browser.
-3. Edit `style.css` for design changes, `script.js` for interactions, and `index.html` for page content and links.
+- HTML, CSS, and JavaScript, where applicable
+- Next.js and React, where applicable
+- Supabase for authentication and database services
+- Git and GitHub for version control
 
-No installation or build command is needed. The Poppins font is loaded from Google Fonts when an internet connection is available; a sans-serif fallback is included.
+*The technologies used depend on the specific version of the project.*
 
-## Before publishing
+## Getting Started
 
-Replace the placeholder details in `index.html` with your real information:
+1. Clone or download the repository.
+2. Open the project folder in Visual Studio Code.
+3. Install the dependencies if the project uses Node.js:
 
-- Selar checkout links (`href="#"`)
-- Course price (`₦X,XXX`)
-- WhatsApp number (`234XXXXXXXXXX`)
-- Community group URL
-- Telegram, TikTok, and Facebook usernames/URLs
-- Add your Coach Praise photo as `coach.jpg` in this folder, or change the image path in `index.html`
+   ```bash
+   npm install
+   ```
 
-Check that all income claims and personal figures are accurate before publishing.
+4. Configure the required environment variables in a local `.env.local` file if applicable.
+5. Start the development server using the command specified in the project's `package.json`.
+
+## Security
+
+- Never upload passwords, API secrets, or Supabase service-role keys to GitHub.
+- Keep private environment files out of version control.
+- Restrict administrator permissions to authorized users.
+
+## Project Purpose
+
+The goal of Digital Income Academy is to provide a structured learning experience for people interested in affiliate marketing and digital income skills.
+
+## License
+
+No license has been specified yet.
